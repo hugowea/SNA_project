@@ -2,7 +2,7 @@ version: '3.8'
 
 services:
   web:
-    build: web/web
+    build: sna
     ports:
       - "8000:8000"
     depends_on:

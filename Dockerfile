@@ -5,7 +5,7 @@ ENV PYTHONUNBUFFERED 1
 WORKDIR /code
 
 
-COPY web /code/
+COPY sna /code/
 
 EXPOSE 8000
 
